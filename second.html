@@ -215,18 +215,44 @@ ContentPlaceHolder1_RequiredFieldValidator1.initialvalue = "";
 //]]>
 </script>
 
-<script>
+<!-- <script>
 
 function result(){
 	let res=document.getElementById('ContentPlaceHolder1_TextBox_RegNo');
 	let regNo=res.value;
-	if(regNo=='22153153045'){
-		window.open("22153153045.html");
-	}else{
+	if(regNo=='22153153046'){
+		window.open("22153153046.html");
+	 }
+     else if(regNo=='2215315345'){
+        window.open("22153153045.html");
+        
+     }
+     else{
 		window.open("noResult.html");
 	}
 }
-</script>
+</script> -->
+<!--    java scrict function in work the show the result  -->
+<script>
+    function result() {
+        let res = document.getElementById('ContentPlaceHolder1_TextBox_RegNo');
+        let regNo = res.value;
+        if (regNo == '22153153046') {
+            window.open("22153153046.html");
+        } 
+        else if (regNo == '22153153045') {
+            window.open("22153153045.html");
+        } 
+        else if (regNo == '22153153047') {
+            window.open("22153153047.html");
+        } 
+        else {
+            window.open("noResult.html");
+        }
+    }
+    </script>
+    
+    
 
 <script type="text/javascript">
 //<![CDATA[
